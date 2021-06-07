@@ -1,8 +1,8 @@
 package husaynhakeem.com.aboutpage
 
 import android.graphics.drawable.ColorDrawable
-import android.support.test.InstrumentationRegistry
-import android.support.v4.content.ContextCompat
+import androidx.test.platform.app.InstrumentationRegistry
+import androidx.core.content.ContextCompat
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView

@@ -2,9 +2,9 @@ package husaynhakeem.com.aboutpage
 
 import android.content.Context
 import android.content.res.Resources
-import android.support.annotation.ColorRes
-import android.support.annotation.DrawableRes
-import android.support.v4.content.ContextCompat
+import androidx.annotation.ColorRes
+import androidx.annotation.DrawableRes
+import androidx.core.content.ContextCompat
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -59,6 +59,6 @@ internal fun setViewBackground(context: Context, view: View, background: Int) {
             else -> throw Resources.NotFoundException("Background resource must be a drawable or color")
         }
     } catch (e: Resources.NotFoundException) {
-        Log.e(TAG, e.message)
+        Log.e(TAG, e.message!!)
     }
 }

@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FORK/about/app/src/main/res/layout/activity_main.xml" value="0.2015625" />
+        <entry key="..\:/FORK/about/library/src/main/res/layout/about_page.xml" value="0.2015625" />
+        <entry key="..\:/FORK/about/library/src/main/res/layout/layout_item.xml" value="0.2015625" />
+        <entry key="..\:/FORK/about/library/src/main/res/layout/layout_separator.xml" value="0.2015625" />
+      </map>
+    </option>
+  </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
     <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
